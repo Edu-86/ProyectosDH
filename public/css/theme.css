@@ -1,0 +1,312 @@
+
+body {
+  
+    font-family: 'roboto';  
+    background-color: #eee;
+  
+}
+
+.bg-main {
+  background-color: #eac926;
+}
+
+.bg-blue {
+  background-color: #03264c;
+}
+
+.bg-light-blue {
+  background-color: #1259c3;
+}
+
+.bg-green {
+  background-color: #39b54a;
+}
+
+.bg-light-gray {
+  background-color: #ebebeb;
+}
+
+.text-green {
+  color: #39b54a;
+}
+
+.text-dark-gray {
+  color: #666;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-25 {
+  width: 25%;
+  display: flex;
+  align-items: stretch;
+  
+}
+
+.main-header{
+  width: 100%;
+  background-color: #EAC926;
+  padding: 30px;
+ 
+      
+}
+
+.burger-menu{
+background-color: #03264C;
+color: #ffffff;
+display: none;
+max-width: 50px;
+padding: 15px 0;
+border-radius: 8px;
+text-align: center;
+font-size: 18px;
+margin: auto;
+
+}
+.logo {
+width: 200px; 
+}
+
+.copy-header{
+font-weight: 400;
+text-align: center;
+
+}
+
+
+
+.main-navbar {
+  
+  justify-content: space-between;
+  background-color:  #EAC926;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 0px 20px;
+}
+.izq-navbar {
+display: flex;
+flex-direction: row;
+list-style: none;
+margin: 0;
+padding: 10;
+
+}
+
+.right-navbar  {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+
+.main-header-top-bar{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%
+  
+}
+
+.search-bar{
+display: flex;
+position: relative;
+width: 40%;
+justify-content: center;
+align-self: center;
+margin-left: 30px;
+
+
+}
+
+.search-bar input{
+width: 100%;
+height: 30px;
+justify-content: flex-end;
+border: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+
+im
+.search-bar i{
+border: none;
+height: 30px;
+position: absolute;}
+
+.width-100 {
+  width: 100%;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.padding-y-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.margin-y-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.main-form {
+  font-size: 18px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+
+  margin-bottom: 16px;
+}
+
+.radio-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox-input {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.button-primary {
+  background-color: #1259c3;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+button#search-button{
+  border: none;
+  background-color: white;
+  color: rgb(73, 63, 63);
+  height: 30px;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.burger-menu {
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #1259c3;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  margin-top: 8px;
+}
+.search {
+  
+  
+    display: flex;
+    position: relative;
+    width: 40%;
+    justify-content: center;
+    align-self: center;
+    margin-left: 30px;
+}
+
+
+.send-button:hover {
+  background-color: #0022aa;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  margin: 5px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.footer-icon{
+  color: #1259c3;
+  font-size: 2em;
+  margin:auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+.footer-section{
+  color: #666;
+  text-align: center
+}
+
+.copyright{
+  color: #666;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.enviar{
+  width: 100%;
+  background-color: #1259c3;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.restablecer{
+  width: 100%;
+  background-color: #666;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.ingresar{
+  width: 100%;
+  background-color: #666;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input-log{
+    width: 100%;
+    margin-top: 20px;
+   margin-bottom: 10px;
+   height: 20px;
+   padding: 20px;
+   border: none;
+   border-radius: 5px;}
