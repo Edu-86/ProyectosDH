@@ -214,8 +214,6 @@ main {
   margin-top: 8px;
 }
 .search {
-  
-  
     display: flex;
     position: relative;
     width: 40%;
@@ -310,3 +308,7 @@ main {
    padding: 20px;
    border: none;
    border-radius: 5px;}
+
+   .main-navbar li {
+    margin: 0 15px;
+      }
