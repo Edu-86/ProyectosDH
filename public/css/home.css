@@ -53,11 +53,24 @@
 
 /* Tablet + */
 @media (min-width: 480px) {
-  /* nada por ahora*/
-  .product-card {
+  .article {
     width: calc(50% - 16px);
   }
+  .article{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+  
+ 
+  }
+  .section-visita{
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .section-oferta{
+  display: flex;
+  flex-wrap: wrap;
+  }
 }
+
 
 /* Laptop + */
 @media (min-width: 768px) {
